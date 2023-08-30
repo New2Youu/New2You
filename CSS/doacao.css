@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Mukta', sans-serif;
+
+    user-select: none;
+
+    overflow: hidden;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+
+    background-color: #5288F2;
+
+    overflow-x: hidden; 
+}
+
+.cabecalho {
+    width: 100%;
+    height: 10vh;
+
+    display: flex;
+
+    background-color: #ffffff;
+}
+
+.halfRight {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.halfLeft{
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+
+    margin-left: 72px;
+}
+
+.links {
+    font-size: x-large;
+
+    color: #808080;
+}
+.links:hover{
+    color: #000000;
+}
+
+#logoClick {
+    height: 80%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.conteudo {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10%;
+
+    flex-direction: row;
+
+    background-color: #5288F2;
+}
+
+.produto{
+    width: 300px;
+    height: 400px;
+
+    padding-top: 16px;
+
+    margin-top: 16px;
+
+    margin-bottom: 24px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    flex-direction: column;
+
+    background-color: #ffffff;
+
+    border: 0.01px solid black;
+    border-radius: 5px;
+}
+
+.descProduto{
+    width: 90%;
+
+    margin-top: 4px;
+    margin-bottom: 4px;
+
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+#produto1{
+    width: 80%;
+}
+#produto2{
+    width: 80%;
+}
+#produto3{
+    width:80%;
+}
+.rodape {
+    width: 100%;
+    height: 20vh;
+
+    background-color: #5288F2;
+
+    display: flex;
+    justify-content: center;
+
+    margin-top: 32px;
+
+    position: fixed;
+    bottom: 0;
+}
+
+.third {
+    margin: 16px;
+
+    margin-left: 96px;
+    margin-right: 96px;
+
+    flex-direction: column;
+}
+
+#trocaTrend{
+    height: 200px;
+    margin-bottom: 10%;
+
+}
+.troctarend {
+    height: 300px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 10px;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.titleAtacado{
+    margin-top: 1vh;
+}
+
+#atacadoLogo{
+    height: 240px;
+}
+
+.atacadao{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
